@@ -9,13 +9,13 @@ def run_guessing_game
   case user_input 
     
     when rando
-      "You guessed the correct number!"
+      puts "You guessed the correct number!"
       
     when "exit"
-      "Goodbye!"
+      puts "Goodbye!"
       
     else 
-      "Sorry! The computer guessed #{rando}."
+      puts "Sorry! The computer guessed #{rando}."
     end 
   end 
       
